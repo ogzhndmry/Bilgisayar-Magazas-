@@ -4,27 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
-    <link rel="stylesheet" href="urun.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <title>Ürünlerimiz</title>
 </head>
-<body>
-    <ul>
-            <li class="sayfa"><a href="index.html">Anasayfa</a></li>
-            <li class="sayfa"><a href="urunlerimiz.html">Ürünlerimiz</a></li>
-            <li class="sayfa"><a href="hakkimizda.html">Hakkımızda</a></li>
-    </ul>
-    <h1>Ürünlerimiz</h1>
-    <ol>
-        <img class="resim" src="resimler/msi-a320m.jpg" alt="msi-a320m">
-        <li>MSİ A320M resim <b>884,08 TL</b></li>
-        <img class="resim" src="resimler/amd-ryzen-3-3100.jpg" alt="amd-ryzen-3-3100">
-        <li>AMD Ryzen 3 3100 İşlemci <b>2.950 TL</b></li>
-        <img class="resim" src="resimler/xfx-rx-570.jpg" alt="xfx-rx-570">
-        <li>XFX RX 570 Ekran Kartı <b>4.154,32 TL</b></li>
-        <img class="resim" src="resimler/corsair-vengeance-rgb-pro-16-gb.jpg" alt="corsair-vengeance-rgb-pro-16-gb">
-        <li>Corsair Vengeance 16(8x2) gb Ram <b>1.809,37 TL</b></li>
-        <img class="resim" src="resimler/western-digital-3-5-1-tb.jpg" alt="western-digital-3-5-1-tb">
-        <li>Western Digital 3'5 1tb <b>670,00 TL</b></li>
-    </ol>
+<body style="background-color: #E9ECEF;">
+    <header class="container-fluid ml-0 bg-dark">
+        <div class="row">
+            <h3 class="mr-0" style="color: rgb(255, 0, 76); @important">Bilgisayar Dükkanım</h1>
+            <div class="mt-2">
+                <a class="col-sm text-light" href="index.html">Anasayfa</a>
+                <a class="col-sm text-light" href="urunlerimiz.html">Ürünlerimiz</a>
+                <a class="col-sm text-light" href="hakkimizda.html">Hakkımızda</a>
+            </div>
+        </div>
+    </header>
+    <h1 class="text-center mt-5" style="color:blueviolet">Ürünlerimiz</h1>
+    <div class="container mt-5">
+        <div class="row hidden-up">
+            <div class="col-3">
+                <div class="card" style="background-color: #E9ECEF;">
+                    <div class="card-group">
+                        <img class="img-fluid" src="resimler/msi-a320m.jpg" alt="msi-a320m">
+                        <h3 class="card-subtitle ml-2" style="color:blueviolet">MSİ A320M</h3>
+                        <h4 class="d-inline rounded bg-dark text-light ml-2">884,08 TL</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="background-color: #E9ECEF;">
+                    <div class="card-group">
+                        <img class="img-fluid" src="resimler/xfx-rx-570.jpg" alt="xfx-rx-570">
+                        <h3 class="card-subtitle ml-2" style="color:blueviolet">XFX RX 570 Ekran Kartı</h3>
+                        <h4 class="d-inline rounded bg-dark text-light ml-2">4.154,32 TL</h4>
+                    </div>
+            </div>
+        </div>
+            <div class="col-3">
+                <div class="card" style="background-color: #E9ECEF;">
+                    <div class="card-group">
+                        <img class="img-fluid" src="resimler/corsair-vengeance-rgb-pro-16-gb.jpg" alt="corsair-vengeance-rgb-pro-16-gb">
+                        <h3 class="card-subtitle ml-2" style="color:blueviolet">Corsair Vengeance 16(8x2) gb Ram</h3>
+                        <h4 class="d-inline rounded bg-dark text-light ml-2">1.809,37 TL</h4>
+                    </div>
+            </div>
+        </div>
+            <div class="col-3">
+                <div class="card" style="background-color: #E9ECEF;">
+                    <div class="card-group">
+                        <img class="img-fluid" src="resimler/western-digital-3-5-1-tb.jpg" alt="western-digital-3-5-1-tb">
+                        <h3 class="card-subtitle ml-2" style="color:blueviolet">Western Digital 3'5 1tb </h3>
+                        <h4 class="d-inline rounded bg-dark text-light ml-2">670,00 TL</h4>
+                    </div>
+                </div>
+            </div>
+    </div>
 </body>
 </html>
